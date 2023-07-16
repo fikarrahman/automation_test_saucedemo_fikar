@@ -26,7 +26,7 @@ after that open up the Pycharm and add the neccesary plugins to run the automati
 ![asiubdausbdaubsd](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/cd5c08e5-b2df-4bc0-b445-df9a9e35dc55)
 
 then, still in the settings page go to the python project -> python intreperter to add robotframeworks,selenium,robotframeworks-selenium 
-into the pycharm 
+into the pycharm.
 
 ![aiusbduiaduibavsd](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/ec6de1fd-7b1a-4418-aa3f-35552c3603cb)
 
@@ -36,7 +36,7 @@ if the steps is followed and has no errors, use the command in the built in term
 
 ![asgbdiuyabsdiuabsd](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/9f7a409a-5f9f-4354-befb-5598529ae9b7)
 
-in the built in terminal there is a report of the automation tests itself 
+in the built in terminal there is a report of the automation tests itself. 
 
 ![aousdhoaubsdouabsduabsd](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/595d1d89-6ce6-4b34-814f-0dc29109f00a)
 
@@ -46,11 +46,11 @@ in the built in terminal there is a report of the automation tests itself
 
 # Test Results Discussion 
 
-As it shows on the logs itself there is 2 test cases which has the function to login and checkout items that has failed. the first failed test is the test named Logintest_locked where when inputted the coresponding user id and password the site has locked out the user from logging in and ultimately cannot be able to use the site hence the error in the test itself and technically the code used could'nt find the Button id because of this  
+As it shows on the logs itself there is 2 test cases which has the function to login and checkout items that has failed. the first failed test is the test named Logintest_locked where when inputted the coresponding user id and password the site has locked out the user from logging in and ultimately cannot be able to use the site hence the error in the test itself and technically the code used could'nt find the Button id because of this.  
 
 ![sdiufbsuadbfasd](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/f1ac659f-538d-4e9e-b669-186758e12203)
 
-the next failed test is using the problem_user id and password as the login credentials, the first steps of the code is as intended by adding inventory and checking out but the problem was the bug that was found when inputting the first and last name where it causes the inputted text to dissapear and only leave the last key from the last name in. which then the automation halt as it cannot find the button id:finish  
+the next failed test is using the problem_user id and password as the login credentials, the first steps of the code is as intended by adding inventory and checking out but the problem was the bug that was found when inputting the first and last name where it causes the inputted text to dissapear and only leave the last key from the last name in. which then the automation halt as it cannot find the button id:finish. 
 
 ![asduibfoiuadbcuoasbdvcoibsdbvip](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/147d14e1-6642-4653-8729-b6b750946b6b)
 
@@ -58,13 +58,13 @@ this test was succesful by using the profile credential of performance_glich_use
 
 ![aoishdiashdhiasda](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/a8538cf5-26ee-4ba3-8d10-fe5c6e8fae21)
 
-lastly the standard test is preformed using the standard user. this test is the basis of the test above and is a representation of the system in its full health without bugs or performance issues. the rate it took for the test to run is only 2.264 seconds to succsesfully atutomate the login and checkout process
+lastly the standard test is preformed using the standard user. this test is the basis of the test above and is a representation of the system in its full health without bugs or performance issues. the rate it took for the test to run is only 2.264 seconds to succsesfully atutomate the login and checkout process.
 
 ![aiusbdouaisbdbauods](https://github.com/fikarrahman/automation_test_saucedemo_fikar/assets/139712706/94310cf7-96ac-4f75-9f89-7cc47fea0cee)
 
+# Suggestions
 
-
-
+the system itself is good but the heading of one on the items in the web has a bad title (Test.allTheThings() T-Shirt (Red)) this is the one of the mistakes that i have found, anotther mistake is the description of one of the items in the product where it has a "carry.allTheThings()" in the start of the backpack description. 
 
 
 
